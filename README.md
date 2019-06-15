@@ -4,3 +4,4 @@ I resized the pictures so they fot perfectly same, without cutting any part of a
 Besides the slides and the animated text and timing that had to be maintained between them, the rest of the task was easier as compared to that.
 Although, Im not 100% satisfied with the task as its not 100% same and I'd call it only 60% similar.
 I hope I dont dissapoint. :)
+P.s I think Zara is overrated. XD
