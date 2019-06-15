@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+ <title>ZARA</title>   
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<style type="text/css"></style>
+</head>
+<body>
+  <!-- This is the main menu bar -->
+<div class= "mainbar">
+  <nav class=bar> 
+    <ul >
+          <img src="../images/index.png">
+      <li class=nav-item><input type=text placeholder="SEARCH"> <hr>
+       </li>
+      <li class="nav-item"> <a href=""> Woman  </a> </li>
+      <li class="nav-item"> <a href=""> Man   </a></li>
+      <li class="nav-item"> <a href="">  Kids   </a> </li>
+          <li class="nav-item"> <a href="">  New  </a> </li>
+          <li class="nav-icon2"> <a href=""> <img  src="../images/shopping.png"> </a> </li>
+          <li class="nav-icon" > <a href=""> <img src="../images/id.png"> </a> </li>
+      
+        </ul>
+    </nav>
+
+</div>
+  <!-- Here starts the main section -->
+<div class= section>
+    <!-- First section has the animated slides-->
+<div class="first">
+  <table style="height: 69px;" width="236">
+<tbody>
+<tr>
+<td style="width: 40px padding-right: 100px"> 
+  <div class="Iam">
+
+<p> SUMMER/SPRING 2019 </p>
+<b>
+  <div class="innerIam">
+    THE TOURIST <br/> 
+    DRESS TIME<br/>
+    TREND-LED 
+    </div>
+   
+</b>
+
+</div>
+</td>
+<td style="width: 800px;"> 
+  <div class="slider">
+<div class =slide> 
+  <ul id="imgs">
+    <li><img src="../images/TOURIST.jpg" alt="" /></li>
+    <li><img src="../images/TREND.jpg" alt="" /></li>
+    <li><img src="../images/DRESS.jpg" alt="" /></li>
+  </ul>
+</div>
+<div class =slide3> 
+  <ul id="imgs2">
+    <li><img src="../images/TREND2.jpg" alt="" /></li>
+    <li><img src="../images/DRESS2.jpg" alt="" /></li>
+    <li><img src="../images/TOURIST2.jpg" alt="" /></li>
+  </ul>
+</div>
+<div class=slide2> 
+  <ul id="imgs3">
+    <li><img src="../images/DRESS2.jpg" alt="" /></li>
+    <li><img src="../images/TOURIST2.jpg" alt="" /></li>
+    <li><img src="../images/TREND2.jpg" alt="" /></li>
+  </ul>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+</div>
+  <!-- The second section has the second picture-->
+
+  <div class="second">
+  <img src="../images/ZARA2.jpg">
+    <div class="top-left1"> <b> SPECIAL </br> <b> PRICES </div>
+    <div class="bottom-right" > <b> OFF </br> <b> 30% </div>
+  </div>
+
+  <!-- The third section is kids sale section -->
+<div class="third">
+<img src="../images/ZARA3.jpg">
+<div class="top-left2">#ESSENTIALS </div>
+<div class="bottom-left"> <b> KIDS SPRING </br> <b> SUMMER 2019 </div>
+</div>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script type="text/javascript" src="../lib/ImageScroll.js"></script> 
+<script type="text/javascript">
+  //Script for scrolling effect in the slides
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:800,
+    interval:1000,
+    hoverPause:false,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+     
+      
+    }
+  });
+$('#imgs2').imageScroll({
+    orientation:"left",
+    speed:900,
+    interval:1000,
+    hoverPause:false,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+      
+    }
+  });
+$('#imgs3').imageScroll({
+    orientation:"left",
+    speed:900,
+    interval:1000,
+    hoverPause:false,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+      
+      
+    }
+  });
+
+
+
+  </script><script type="text/javascript">
+
+
+</script>
+</body>
+</html>
